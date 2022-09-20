@@ -1,0 +1,22 @@
+			Comandos
+#Ver os emuladores criados 
+	emulator -list-avds
+
+#Iniciar o emulador android pelo prompt de comando
+	emulator -no-snapshot -avd [nome do emulador]
+
+#Criar projeto expo - na pasta escolhida
+	expo init [nome do projeto]
+
+#Iniciar o expo - dentro da pasta do projeto
+	expo start
+
+#Criar o APK - a pasta do projeto
+	expo build:android [logar com o email do expo]
+
+#Instalar APK no celular conectado atraves do usb
+	adp install [nomeapp].apk
+
+			Links
+#Documentação Expo
+	https://docs.expo.io/versions/latest/react-native/image/
